@@ -1,0 +1,177 @@
+body{
+	margin:0 auto;
+	padding:0;
+	font-family:sans-serif;
+	background:#696969;
+}
+.header{
+	background-color: gray;
+}
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	background:#f0A91B;
+	box-shadow: 7px 0px 10px rgba(0,0,0,0.6),-7px 0px 10px rgba(0,0,0,0.6);
+}
+section{
+	padding:1%;
+}
+.header-Image img{
+	align-items: center;
+	float:center;
+	margin-left: 10px;
+	border-radius:50%;
+}
+header{
+	text-align: center;
+
+}
+nav{
+	margin-bottom:2%;
+}
+nav a{
+	padding-top: 2%;
+	padding:.7% 2.5%;
+	margin:2% 1%;
+	text-decoration:none;
+	border-top:3px solid #000;
+	border-bottom:3px solid #000;
+	transition:all 0.5s;
+}
+nav a:hover{
+	background-color: white;
+	box-shadow:0 1px 1px #f00;
+	text-shadow:0 1px 1px #f00;
+}
+.fa{
+	padding-top: 5%;
+	padding:20px;
+	font-size:50%;
+	width:50px;
+    text-align:center;
+    text-decoration:none;
+   background-color: white;
+    color:green;
+}
+.fonts{
+	padding-top:5%;
+}
+button{
+	padding-top: 3%;
+	font-size:20px;
+}
+.fonts :hover{
+	color:gray;
+}
+
+.row{
+	background-color: white;
+	margin:8px 16px;
+}
+.column{
+	float:left;
+	width:50%;
+}
+.content{
+	background-color: white;
+	padding: 15px;
+}
+@media screen and (max-width:900px){
+	.column{
+		width:50%;
+	}
+}
+@media screen and (max-width:600px){
+	.column{
+		width:100%;
+	}
+}
+article{
+     border-top:3px solid #000;
+	border-bottom:3px solid #000;
+}
+section{
+	
+	background:white;
+}
+.skillset{
+	padding-top: 5%;
+}
+.skills{
+text-align:right;
+	padding-top:10px;
+	color:white;
+	font-family:helvetica;
+	background-color:#808080;
+	border-radius:5px;
+	border:0.25px solid #ccc;
+}
+
+.wdes{
+	width:90%;
+	background-color: #7CFC00;
+}
+.php{
+	width:85%;
+	background-color: #90EE90;
+}
+.wd{
+	width:80%;
+	background-color: #8004F0;
+}
+.java{
+	width:65%;
+	background-color: #A9A9A9;
+}
+.js{
+	width:60%;
+	background-color: #8004F0;
+}
+/*soft skills*/
+.alist{
+width:90%;
+	background-color: #8004F0;
+}
+.tms{
+	width:85%;
+	background-color: #A9A9A9;
+}
+.Comm{
+	width:75%;
+	background-color: #8004F0;
+}
+.ips{
+	width:65%;
+	background-color: #A9A9A9;
+}
+.Psol{
+	width:60%;
+	background-color: #8004F0;
+}
+.container{
+	background-image:url('https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?cs=srgb&dl=coffee-contact-email-hands-4831.jpg&fm=jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position:bottom-left;
+}
+form{
+
+	width:485px;
+	background-color: rgba(163,207,201,0.2);
+	padding:10px;
+	border-radius:5px;
+	border:2px solid #ccc;
+	margin:50px auto;
+	width:600px;
+	border-radius: 10px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+label {
+	display:inline-block;
+	width:120px;
+	text-align:right;
+	color:black;
+	font-size:20px;
+	padding-right:20px;
+	padding-top: 15%;
+}
